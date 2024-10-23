@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    min-height: 100vh;
+}
+.padding {
+    padding-left:9% ;
+    padding-right:9% ;
+}
+.madding {
+    margin-left: 200px;
+}
+.buttom1 {
+    background-color: black;
+    color: white;
+}
+.atag {
+    width:50px;
+    height: 50px;
+    
+    
+}
+.imgtag {
+    border-radius: 50%;
+}
+.flex1 {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.about {
+    padding-top:10rem ;
+    padding-bottom:6rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.Text1 {
+    flex-basis: 48%;
+    color: white;
+}
+.Text1 h2 {
+    text-align: center;
+    margin: 30px;
+}
+.Text1 button {
+    margin-left: 200px;
+}
+.textimg  {
+    border-radius: 50px;
+}
+.img text {
+    flex-basis: 48%;
+}
+.services {
+    background-color: rgb(68, 68, 68);
+    padding-top: 6rem;
+    padding-bottom:5rem ;
+}
+.services h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.main {
+ column-gap: 20px;
+}
+.shop {
+    padding-top:7rem ;
+    padding-bottom:5rem ;
+}
+.shop h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1 {
+    flex-basis: 60%;
+}
+.contact {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background-color: rgb(68, 68, 68);
+}
+.h2card h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+.card5 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(9, 9, 138);
+    color: white;
+}
+
+.card6 p {
+    margin-top: 10px;
+text-align: center;
+}
+
